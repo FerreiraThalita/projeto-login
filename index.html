@@ -15,16 +15,22 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja Bem-vindo(a) novamente! Faça login para acessar sua conta.</p>
-                <form action="login.php" method="post">
-                    <p>
-                        <label for="iemail">
-                           Email: <input type="email" name="email" id="iemail">
-                        </label>
+                <form action="login.php" method="post" autocomplete="off">
+                    <p class="org">
+                        <label for="iemail"> Email: </label>
+                        <input type="email" name="email" id="iemail" size="21" required>
+                        
+                    </p> 
+                    <p class="org">
+                        <label for="isenha"> Senha:</label>
+                        <input type="password" name="senha" id="isenha" minlength="8" size="20" required>
+                    
                     </p>
-                    <p>
-                        <label for="isenha">
-                        Senha: <input type="password" name="senha" id="isenha">
-                    </label>
+                    <p class="org">
+                        <input type="submit" value="Enviar">                  
+                    </p>
+                    <p class="org">
+                        <input type="submit" value="Esqueci a senha">                  
                     </p>
                 </form>
             </div>
