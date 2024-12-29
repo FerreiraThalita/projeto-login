@@ -16,19 +16,22 @@ body, html {
 }
 
 section {
-    padding-top: 20px;
     margin: auto;
+    padding-top: 20px;
 }
 
 section > #imagem {
+    height: 30vh;
+    width: 50vw;
     background: url(../imagens/galaxia.jpg) no-repeat;
-    height: 300px;
-    width: 70vw;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 section > #formulario {
     background-color: white;
-    width: 70vw;
-    height: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50vw;
+    height: 40vh;
 }
