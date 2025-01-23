@@ -1,0 +1,52 @@
+
+/* Paleta de cores
+
+    Roxo: #8C4A69
+    Azul: #0C1D40
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+   background-color: #547193;
+   height: 100vh;
+   width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+}
+
+section#login > div#imagem {
+    background: #D2D9A3 url(../imagens/galaxia.jpg) no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 200px;
+    display: block;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
