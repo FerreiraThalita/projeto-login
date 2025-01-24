@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
 </head>
@@ -18,21 +20,21 @@
                 <p>Seja Bem-vindo(a) novamente! Faça login para acessar sua conta.</p>
                 <form action="login.php" method="post" autocomplete="off">
                     <p class="org">
-                        <label for="iemail"> Email: </label>
-                        <input type="email" name="email" id="iemail" size="21" required>
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" maxlength="21" placeholder="seu email" autocomplete="email" required>
                         
                     </p> 
                     <p class="org">
-                        <label for="isenha"> Senha:</label>
-                        <input type="password" name="senha" id="isenha" minlength="8" size="20" required>
+                        <span class="material-icons">password</span>
+                        <input type="password" name="senha" id="isenha" minlength="8" maxlength="20" placeholder="sua senha" autocomplete="current-password" required>
                     
                     </p>
-                    <p class="org">
-                        <input type="submit" value="Enviar">                  
-                    </p>
-                    <p class="org">
-                        <input type="submit" value="Esqueci a senha">                  
-                    </p>
+                    <input type="submit" value="Enviar"> 
+                    <a href="esqueci.html">
+                        Esqueci a senha <span class="material-icons">mail</span>
+                    </a>                 
+                    
+                    
                 </form>
             </div>
         </section>

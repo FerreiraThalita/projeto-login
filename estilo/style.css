@@ -53,19 +53,16 @@ section#login > div#formulario {
     padding: 10px;
 }
 
-section > #formulario > h1 {
-    padding-top: 15px;
+div#formulario > h1 {
+    margin-bottom: 15px;
     text-align: center;
 }
 
-section > #formulario > p {
-    padding: 15px;
-    width: 250px;
-    text-align: justify;
+div#formulario > p {
     font-size: 0.8em;
 }
 
-section > #formulario > form {
+div#formulario > form {
     padding-top: 10px;
     padding-left: 30px;
     font-weight: bolder;
