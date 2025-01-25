@@ -62,11 +62,34 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+p.campo > span {
+    color: white;
+    width: 40px;
+    font-size: 2em;
+    padding: 4px;
+}
+
+p.campo > input {
+    background-color: #D2D9A3;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-11px);
+}
+
+p.campo > input:focus-within {
+    background-color: white;
+}
+
 form > p.campo {
     display: block;
     width: 100%;
     height: 40px;
-    background-color: #D2D9A3;
+    background-color: #6D8C2A;
+    border: 2px solid #6D8C2A;
     border-radius: 8px;
     margin: 8px 0px;
     padding-left: 5px;
@@ -100,6 +123,7 @@ form > a.boton {
     text-decoration: none;
     text-align: center; 
     padding: 6px 0px;
+    margin: 8px 0px;
 }
 
 form > a.boton:hover {

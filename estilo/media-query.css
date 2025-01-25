@@ -7,6 +7,7 @@
 
     section#login {
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -22,8 +23,18 @@
         width: 60%;
     }
 
+    div#formulario > p {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    p.campo > input {
+        background-color: white;
+    }
+
     form > p.campo {
         background-color: #940404c4;
+        border: 2px solid #940404c4;
     }
 
     form > input[type=submit] {
@@ -39,7 +50,7 @@
     }
 
     form > a.boton {
-        background-color: #F1F2D8;
+        background-color: white;
         border: 1px solid #400101;
         color: #400101;
         height: 50px;
@@ -61,6 +72,7 @@
 
     section#login {
         width: 950px;
+        height: 360px;
     }
 
     section#login > div#imagem {
@@ -78,15 +90,22 @@
 
     div#formulario > h1 {
         font-size: 2em;
+        padding-top: 10px;
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1.1em;
         text-align: center;
+        margin: 10px 0px;
+    }
+
+    p.campo > input {
+        background-color: white;
     }
 
     form > p.campo {
         background-color: #940404c4;
+        border: 2px solid #940404c4;
     }
 
     form > input[type=submit] {
@@ -102,7 +121,7 @@
     }
 
     form > a.boton {
-        background-color: #F1F2D8;
+        background-color: white;
         border: 1px solid #400101;
         color: #400101;
         height: 50px;
