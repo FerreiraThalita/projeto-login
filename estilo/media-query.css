@@ -21,6 +21,36 @@
         float: right;
         width: 60%;
     }
+
+    form > p.campo {
+        background-color: #940404c4;
+    }
+
+    form > input[type=submit] {
+        background-color: #400101;
+        color: white;
+        height: 50px;
+    }
+
+    form > input[type=submit]:hover {
+        background-color: #F1F2D8;
+        border: 1px solid #400101;
+        color: #400101;
+    }
+
+    form > a.boton {
+        background-color: #F1F2D8;
+        border: 1px solid #400101;
+        color: #400101;
+        height: 50px;
+        margin: 8px 0px;
+        padding: 10px 0px;
+    }
+
+    form > a.boton:hover {
+        background-color: #400101;
+        color: #F1F2D8;
+    }
  }
 
  @media screen and (min-width: 992px){
@@ -53,5 +83,35 @@
     div#formulario > p {
         font-size: 1.2em;
         text-align: center;
+    }
+
+    form > p.campo {
+        background-color: #940404c4;
+    }
+
+    form > input[type=submit] {
+        background-color: #400101;
+        color: white;
+        height: 50px;
+    }
+
+    form > input[type=submit]:hover {
+        background-color: #F1F2D8;
+        border: 1px solid #400101;
+        color: #400101;
+    }
+
+    form > a.boton {
+        background-color: #F1F2D8;
+        border: 1px solid #400101;
+        color: #400101;
+        height: 50px;
+        margin: 8px 0px;
+        padding: 10px 0px;
+    }
+
+    form > a.boton:hover {
+        background-color: #400101;
+        color: #F1F2D8;
     }
  }
